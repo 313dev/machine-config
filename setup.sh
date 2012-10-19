@@ -25,8 +25,5 @@ cd vim
 make
 sudo make install
 
-cd /usr/local/bin
-sudo ln -s vim vi
-
 # put /usr/local/bin on the path
 echo 'PATH=/usr/local/bin:$PATH' >> ~/.bashrc
