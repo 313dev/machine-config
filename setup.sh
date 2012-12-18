@@ -17,6 +17,10 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bas
 rvm install 1.9.3
 rvm --default use 1.9.3
 
+gem install bundler
+gem install rspec
+gem install cucumber
+
 # install better version of Vim
 cd /tmp
 hg clone https://vim.googlecode.com/hg/ vim
