@@ -11,8 +11,8 @@ sudo rm -rf /usr/share/ruby-rvm /etc/rvmrc /etc/profile.d/rvm.sh
 # install RVM and ruby 1.9.3
 \curl -L https://get.rvm.io | bash -s stable --ruby
 
-echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bash_profile
-. ~/.bash_profile
+echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
+. ~/.bashrc
 
 rvm install 1.9.3
 rvm --default use 1.9.3
