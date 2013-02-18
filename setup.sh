@@ -29,5 +29,9 @@ cd vim
 make
 sudo make install
 
+#set up vimrc
+git clone https://github.com/313dev/configs
+ln -s ~/configs/vimrc ~/.vimrc
+
 # put /usr/local/bin on the path
 echo 'PATH=/usr/local/bin:$PATH' >> ~/.bashrc
